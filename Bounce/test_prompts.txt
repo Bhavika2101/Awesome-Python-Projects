@@ -1,0 +1,99 @@
+Using Config Path : /Users/zb/Downloads/bounce-game-python.env
+[11/16/2023, 3:10:08 PM] - [INFO] - License is verified.
+[11/16/2023, 3:10:10 PM] - [INFO] - Azure Open AI model token verified.
+[11/16/2023, 3:10:10 PM] - [INFO] - Cloning the repo Awesome-Python-Projects using url https://Bhavika2101:REDACT_TOKEN@github.com/Bhavika2101/Awesome-Python-Projects.git
+[11/16/2023, 3:10:16 PM] - [INFO] - Successfully cloned repo Awesome-Python-Projects
+[11/16/2023, 3:10:16 PM] - [INFO] - Successfully fetched user email 63244205+Bhavika2101@users.noreply.github.com
+[11/16/2023, 3:10:16 PM] - [INFO] - Git Token is verified
+[11/16/2023, 3:10:17 PM] - [INFO] - Successfully add git config
+[11/16/2023, 3:10:17 PM] - [INFO] - Successfully checkedout to new branch roost-1700127607
+[11/16/2023, 3:10:18 PM] - [INFO] - License is invoked.
+? Want to provide additional input to generate tests? (Y/n) [60D[60C[2K[G? Want to provide additional input to generate tests? (Y/n) n[61D[61C[2K[G? Want to provide additional input to generate tests? No[56D[56C
+[11/16/2023, 3:11:56 PM] - [INFO] - Successfully made file executable: /var/tmp/Roost/bin/RoostPythonASTParser-mac
+[11/16/2023, 3:11:56 PM] - [INFO] - Processing the repository
+##astParserData {
+  '/var/tmp/Roost/RoostGPT/bounce-game-python/1700127607/Awesome-Python-Projects/Bounce/game.py': {
+    filename: '/var/tmp/Roost/RoostGPT/bounce-game-python/1700127607/Awesome-Python-Projects/Bounce/game.py',
+    imports: [ 'from tkinter import *\n', 'import time\n', 'import random\n' ],
+    modules: {},
+    imported_methods: {},
+    classes: { Ball: [Object], Paddle: [Object], Bricks: [Object] },
+    functions: { 'game.start_game': [Object] },
+    assignments: [ [Object], [Object], [Object], [Object], [Object] ],
+    startupfunctions: 'root = Tk()\n' +
+      "root.title('Bounce Ball')\n" +
+      "root.geometry('500x570')\n" +
+      'root.resizable(0, 0)\n' +
+      "root.wm_attributes('-topmost', 1)\n" +
+      'canvas = Canvas(root, width=500, height=500, bd=0, highlightthickness=0,\n' +
+      "    highlightbackground='Red', bg='Black')\n" +
+      'canvas.pack(padx=10, pady=10)\n' +
+      "score = Label(height=50, width=80, text='Score: 00', font='Consolas 14 bold')\n" +
+      "score.pack(side='left')\n" +
+      'root.update()\n' +
+      'playing = False\n' +
+      "root.bind_all('<Return>', start_game)\n" +
+      "canvas.create_text(250, 250, text='Press Enter to start Game!!', fill='red',\n" +
+      "    font='Consolas 18')\n" +
+      'j = canvas.find_all()\n' +
+      'root.mainloop()\n'
+  },
+  '/var/tmp/Roost/RoostGPT/bounce-game-python/1700127607/Awesome-Python-Projects/Bounce/hit_brick_test.py': {
+    filename: '/var/tmp/Roost/RoostGPT/bounce-game-python/1700127607/Awesome-Python-Projects/Bounce/hit_brick_test.py',
+    imports: [
+      'import unittest\n',
+      'from game import Ball\n',
+      'from tkinter import Canvas, Label\n',
+      'from unittest.mock import Mock\n'
+    ],
+    modules: {
+      game: '/var/tmp/Roost/RoostGPT/bounce-game-python/1700127607/Awesome-Python-Projects/Bounce/game.py'
+    },
+    imported_methods: { Ball: [Object] },
+    classes: { test_Brick_Hit: [Object] },
+    functions: {},
+    assignments: [],
+    startupfunctions: "if __name__ == '__main__':\n    unittest.main()\n"
+  }
+}
+funcPart [ 'game', 'Pad', 'turn' ]
+funcPart [ 'gam', 'Bal', 'bric' ]
+funcPart [ 'gam', 'start' ]
+##inside funcPart.length >= 2
+matchedFiles [
+  '/var/tmp/Roost/RoostGPT/bounce-game-python/1700127607/Awesome-Python-Projects/Bounce/game.py',
+  '/var/tmp/Roost/RoostGPT/bounce-game-python/1700127607/Awesome-Python-Projects/Bounce/hit_brick_test.py'
+]
+funcParts [ 'start_game' ]
+funcParts []
+matchedFunc {
+  '/var/tmp/Roost/RoostGPT/bounce-game-python/1700127607/Awesome-Python-Projects/Bounce/game.py': [ 'start_game' ]
+}
+matchedFuncNameList [
+  'game.Paddle.turn_left',
+  'game.Paddle.turn_right',
+  'game.Ball.brick_hit',
+  'game.start_game'
+]
+[11/16/2023, 3:11:56 PM] - [INFO] - TEST for [game.Ball.brick_hit]
+[11/16/2023, 3:11:56 PM] - [INFO] - TEST for [game.Paddle.turn_left]
+[11/16/2023, 3:11:56 PM] - [INFO] - TEST for [game.Paddle.turn_right]
+[11/16/2023, 3:11:56 PM] - [INFO] - AST: Generating test case for the file Bounce/game.py
+[11/16/2023, 3:11:56 PM] - [INFO] - AST: Consider game.Paddle.turn_left
+[11/16/2023, 3:13:09 PM] - [INFO] - AST: Successfully written test for method game_Paddle_turn_left_8a73a5bf8d into Bounce/test_Game_Paddle_turn_left_8a73a5bf8d.py
+[11/16/2023, 3:13:09 PM] - [INFO] - AST: Consider game.Paddle.turn_right
+[11/16/2023, 3:14:17 PM] - [INFO] - AST: Successfully written test for method game_Paddle_turn_right_bd34ca9cdc into Bounce/test_Game_Paddle_turn_right_bd34ca9cdc.py
+[11/16/2023, 3:14:17 PM] - [INFO] - AST: Consider game.Ball.brick_hit
+[11/16/2023, 3:15:37 PM] - [INFO] - AST: Successfully written test for method game_Ball_brick_hit_113e5f387b into Bounce/test_Game_Ball_brick_hit_113e5f387b.py
+[11/16/2023, 3:15:37 PM] - [INFO] - AST: Consider game.start_game
+[11/16/2023, 3:17:42 PM] - [INFO] - AST: Successfully written test for method game_start_game_586a2fd094 into Bounce/test_Game_start_game_586a2fd094.py
+[11/16/2023, 3:17:42 PM] - [INFO] - 
+        The unittest framework is included in Python's standard library and provides a way to define and run tests.
+        Here's the basic command structure:
+
+        python3 -m unittest <filePath>
+[11/16/2023, 3:17:43 PM] - [INFO] - Successfully added files to Git
+[11/16/2023, 3:17:43 PM] - [INFO] - Successfully committed code
+[11/16/2023, 3:17:44 PM] - [INFO] - Successfully pushed to branch roost-1700127607
+[11/16/2023, 3:17:46 PM] - [INFO] - Successfully created PR, https://github.com/Bhavika2101/Awesome-Python-Projects/pull/12
+[11/16/2023, 3:17:47 PM] - [INFO] - ====================================================================================================
