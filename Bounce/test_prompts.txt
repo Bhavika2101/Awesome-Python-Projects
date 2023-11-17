@@ -1,0 +1,35 @@
+Using Config Path : /Users/zb/Downloads/bounce-game-python.env
+[11/17/2023, 11:07:13 AM] - [INFO] - License is verified.
+[11/17/2023, 11:07:17 AM] - [INFO] - Azure Open AI model token verified.
+[11/17/2023, 11:07:17 AM] - [INFO] - Cloning the repo Awesome-Python-Projects using url https://Bhavika2101:REDACT_TOKEN@github.com/Bhavika2101/Awesome-Python-Projects.git
+[11/17/2023, 11:07:23 AM] - [INFO] - Successfully cloned repo Awesome-Python-Projects
+[11/17/2023, 11:07:24 AM] - [INFO] - Successfully fetched user email 63244205+Bhavika2101@users.noreply.github.com
+[11/17/2023, 11:07:24 AM] - [INFO] - Git Token is verified
+[11/17/2023, 11:07:24 AM] - [INFO] - Successfully add git config
+[11/17/2023, 11:07:26 AM] - [INFO] - Successfully checkedout to new branch roost-1700199432
+[11/17/2023, 11:07:27 AM] - [INFO] - License is invoked.
+? Want to provide additional input to generate tests? (Y/n) [60D[60C[2K[G? Want to provide additional input to generate tests? (Y/n) n[61D[61C[2K[G? Want to provide additional input to generate tests? No[56D[56C
+[11/17/2023, 11:07:38 AM] - [INFO] - Successfully made file executable: /var/tmp/Roost/bin/RoostPythonASTParser-mac
+[11/17/2023, 11:07:38 AM] - [INFO] - Processing the repository
+[11/17/2023, 11:07:39 AM] - [INFO] - TEST for [game.Ball.brick_hit]
+[11/17/2023, 11:07:39 AM] - [INFO] - TEST for [game.Paddle.turn_left]
+[11/17/2023, 11:07:39 AM] - [INFO] - TEST for [game.Paddle.turn_right]
+[11/17/2023, 11:07:39 AM] - [INFO] - AST: Generating test case for the file Bounce/game.py
+[11/17/2023, 11:07:39 AM] - [INFO] - AST: Consider game.Paddle.turn_left
+[11/17/2023, 11:10:54 AM] - [INFO] - AST: Successfully written test for method game_Paddle_turn_left_8a73a5bf8d into Bounce/test_Game_Paddle_turn_left_8a73a5bf8d.py
+[11/17/2023, 11:10:54 AM] - [INFO] - AST: Consider game.Paddle.turn_right
+[11/17/2023, 11:13:39 AM] - [INFO] - AST: Successfully written test for method game_Paddle_turn_right_bd34ca9cdc into Bounce/test_Game_Paddle_turn_right_bd34ca9cdc.py
+[11/17/2023, 11:13:39 AM] - [INFO] - AST: Consider game.Ball.brick_hit
+[11/17/2023, 11:15:07 AM] - [INFO] - AST: Successfully written test for method game_Ball_brick_hit_113e5f387b into Bounce/test_Game_Ball_brick_hit_113e5f387b.py
+[11/17/2023, 11:15:07 AM] - [INFO] - AST: Consider game.start_game
+[11/17/2023, 11:18:29 AM] - [INFO] - AST: Successfully written test for method game_start_game_586a2fd094 into Bounce/test_Game_start_game_586a2fd094.py
+[11/17/2023, 11:18:29 AM] - [INFO] - 
+        The unittest framework is included in Python's standard library and provides a way to define and run tests.
+        Here's the basic command structure:
+
+        python3 -m unittest <filePath>
+[11/17/2023, 11:18:29 AM] - [INFO] - Successfully added files to Git
+[11/17/2023, 11:18:29 AM] - [INFO] - Successfully committed code
+[11/17/2023, 11:18:35 AM] - [INFO] - Successfully pushed to branch roost-1700199432
+[11/17/2023, 11:18:37 AM] - [INFO] - Successfully created PR, https://github.com/Bhavika2101/Awesome-Python-Projects/pull/13
+[11/17/2023, 11:18:45 AM] - [INFO] - ====================================================================================================
